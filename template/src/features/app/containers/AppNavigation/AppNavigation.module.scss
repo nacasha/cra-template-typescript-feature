@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+
+  a {
+    color: #61dafb;
+
+    & ~ a {
+      margin-left: 10px;
+    }
+  }
+}

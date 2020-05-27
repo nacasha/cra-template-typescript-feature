@@ -1,0 +1,7 @@
+.list {
+  text-align: left;
+
+  & ~ .list {
+    margin-left: 10px;
+  }
+}

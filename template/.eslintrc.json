@@ -1,0 +1,71 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "plugins": [
+    "import",
+    "promise",
+    "unicorn"
+  ],
+  "extends": [
+    "airbnb-typescript",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/errors",
+    "plugin:import/typescript",
+    "plugin:import/warnings",
+    "plugin:promise/recommended",
+    "plugin:unicorn/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": [
+          "."
+        ]
+      }
+    }
+  },
+  "rules": {
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
+    "unicorn/prefer-query-selector": "off",
+    "unicorn/filename-case": "off",
+    "unicorn/prevent-abbreviations": [
+      "error",
+      {
+        "whitelist": {
+          "props": true,
+          "otherProps": true,
+          "hoverRef": true,
+          "useCombinedRefs": true,
+          "targetRef": true,
+          "refs": true,
+          "ref": true
+        }
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "external",
+          "builtin",
+          "internal",
+          "parent",
+          "sibling",
+          "index"
+        ],
+        "newlines-between": "always-and-inside-groups"
+      }
+    ]
+  }
+}
