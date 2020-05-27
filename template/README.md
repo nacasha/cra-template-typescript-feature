@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/nacasha/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/nacasha/cra-template-typescript-feature).
 
 ## Available Scripts
 

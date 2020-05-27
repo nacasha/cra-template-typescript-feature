@@ -1,17 +1,17 @@
 # cra-template-typescript
 
-This is the official TypeScript template for [Create React App](https://github.com/facebook/create-react-app).
+Opinionated Create React App template with typescript for [Create React App](https://github.com/nacasha/cra-template-typescript-feature).
 
-To use this template, add `--template typescript` when creating a new app.
+To use this template, add `--template typescript-feature` when creating a new app.
 
 For example:
 
 ```sh
-npx create-react-app my-app --template typescript
+npx create-react-app my-app --template typescript-feature
 
 # or
 
-yarn create react-app my-app --template typescript
+yarn create react-app my-app --template typescript-feature
 ```
 
 For more information, please refer to:

@@ -8,6 +8,7 @@
     "typescript"
   ],
   "description": "Opinionated Create React App template with typescript",
+  "main": "template.json",
   "repository": {
     "type": "git",
     "url": "https://github.com/nacasha/cra-template-typescript-feature.git"
