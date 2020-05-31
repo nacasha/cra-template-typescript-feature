@@ -58,7 +58,7 @@ I follow the [Atomic Design Methodology](https://atomicdesign.bradfrost.com/chap
 - utils
 
 ## Explanation
-<img src="./assets/atomic.png " alt="tomic Design" width="500"/>
+<img src="./assets/atomic-design.png" alt="tomic Design" width="500"/>
 
 Image above is the illustration of five stages atomic design, and these are the short version of explanation from the article.
 - **Atoms** are UI elements that can’t be broken down any further and serve as the elemental building blocks of an interface.
