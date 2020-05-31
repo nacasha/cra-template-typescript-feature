@@ -1,4 +1,4 @@
-# cra-template-typescript
+# cra-template-typescript-feature
 
 Opinionated Create React App template with typescript using Feature First Organization for [Create React App](https://github.com/nacasha/cra-template-typescript-feature).
 
