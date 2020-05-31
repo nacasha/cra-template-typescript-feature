@@ -6,7 +6,7 @@ const MainPage: React.FC = () => (
   <>
     <Logo />
     <p>
-      <code>Typescript Feature Based Organization</code>
+      <code>Typescript Feature First Organization</code>
       <br />
       An opinionated react architecture for building a large scale application.
     </p>

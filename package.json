@@ -5,7 +5,9 @@
     "react",
     "create-react-app",
     "template",
-    "typescript"
+    "typescript",
+    "redux",
+    "feature-first"
   ],
   "description": "Opinionated Create React App template with typescript",
   "main": "template.json",
